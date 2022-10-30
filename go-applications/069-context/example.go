@@ -21,7 +21,7 @@ func main() {
 				return
 			default:
 				n++
-				time.Sleep(time.Millisecond * 200)
+				time.Sleep(time.Nanosecond * 1)
 				fmt.Println("working", n)
 			}
 		}

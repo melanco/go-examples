@@ -31,6 +31,7 @@ func main() {
 
 	prometheus.MustRegister(errored)
 
+	// List the hosts to test and the ports
 	ports := []string{"80", "443"}
 	hosts := []string{"google.com", "192.168.64.6"}
 
